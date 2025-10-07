@@ -264,7 +264,7 @@
       <h2 id="searchTitle" style="position:absolute;left:-9999px">Search Results</h2>
       <div class="search-row">
         <label for="indexInput">Index Number</label>
-        <input id="indexInput" class="input" type="text" placeholder="Enter Index Number (e.g., IIT-2025-001)" autocomplete="off" />
+        <input id="indexInput" class="input" type="text" placeholder="Enter Index Number" autocomplete="off" />
         <button id="searchBtn" class="btn" type="button">See Results</button>
       </div>
       <p class="hint">Tip: You can press <strong>Enter</strong> after typing your index number.</p>
@@ -288,32 +288,144 @@
     // Feel free to edit/extend this list.
     const RESULTS = [
       {
-        index: "IIT-2025-001",
-        name: "A. R. Imaya Perera",
-        paper: "Data Engineering Fundamentals",
-        part1: 44,
-        part2: 48,
+        index: "250001",
+        name: "Nethu Chanuthmi",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 23,
+        part2: 39,
       },
       {
-        index: "IIT-2025-002",
-        name: "K. M. Tharindu Silva",
-        paper: "Programming with Python",
-        part1: 38,
-        part2: 42,
+        index: "250002",
+        name: "Nihansa Nevindi",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 21 ,
+        part2: 32,
       },
       {
-        index: "IIT-2025-003",
-        name: "S. D. Alwis",
-        paper: "Database Systems",
-        part1: 45,
-        part2: 47,
+        index: "250003",
+        name: "Lithumi Rehansa",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 31,
+        part2: 45,
       },
       {
-        index: "IIT-2025-004",
-        name: "N. P. Fernando",
-        paper: "Computer Networks",
-        part1: 35,
+        index: "250004",
+        name: "Yashini Kaumadi",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 15,
+        part2: 31,
+      },
+      {
+        index: "250006",
+        name: "Binul Premarathne",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 27,
+        part2: 38,
+      },
+      {
+        index: "250007",
+        name: "Dineth Wathsilu",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 28,
+        part2: 46.5,
+      },
+      {
+        index: "250008",
+        name: "Venura Fernando",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 31,
+        part2: 56,
+      },
+      {
+        index: "250009",
+        name: "Chamidu Methsara",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 28,
+        part2: 38.5,
+      },
+      {
+        index: "250010",
+        name: "Sandil Soyun",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 25,
+        part2: 52.5,
+      },
+      {
+        index: "250011",
+        name: "Sherwin Shalom",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 31,
+        part2: 51,
+      },
+      {
+        index: "250012",
+        name: "Ayesh Dananjaya",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 23,
+        part2: 31,
+      },
+      {
+        index: "250013",
+        name: "Gevin Fernando",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 20,
         part2: 28,
+      },
+      {
+        index: "250014",
+        name: "Nethusha Fernando",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 27,
+        part2: 30.5,
+      },
+      {
+        index: "250015",
+        name: "Tharul Oneth",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 31,
+        part2: 45.5,
+      },
+      {
+        index: "250016",
+        name: "Chamoda Nemsara",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 31,
+        part2: 44,
+      },
+      {
+        index: "250017",
+        name: "Senul Perera",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 23,
+        part2: 43,
+      },
+      {
+        index: "250018",
+        name: "Dhanuki Chamathka",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 20,
+        part2: 36,
+      },
+      {
+        index: "250019",
+        name: "Nethumi Nadewma",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 22,
+        part2: 33,
+      },
+      {
+        index: "250020",
+        name: "Dinash Rashmidu",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 25,
+        part2: 22.5,
+      },
+      {
+        index: "250021",
+        name: "Nithishka Thushen",
+        paper: "Infinty Mid Examination - 2025",
+        part1: 29,
+        part2: 31,
       },
     ];
 
@@ -323,10 +435,10 @@
 
     function computeGrade(total) {
       // Simple grading rule (out of 100)
-      if (total >= 85) return "A";
-      if (total >= 70) return "B";
+      if (total >= 75) return "A";
+      if (total >= 65) return "B";
       if (total >= 55) return "C";
-      if (total >= 40) return "D";
+      if (total >= 40) return "S";
       return "F";
     }
 
@@ -404,3 +516,4 @@
   </script>
 </body>
 </html>
+
